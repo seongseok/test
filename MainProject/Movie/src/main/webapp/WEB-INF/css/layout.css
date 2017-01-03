@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+
+#wrap{
+    width : 100%;
+    height : auto;
+    margin : 0 auto;
+}
+
+/*header*/
+#headerwrap{
+    margin : 0 auto;
+    background-image : url(../images/header/gnb_bg.png);
+    background-repeat: repeat-x;
+    background-position: top center;
+    width : 100%;
+    height : auto;
+}
+#header{
+	width : 960px;
+	height: 147px;
+	margin: 0 auto;
+	position : relative;
+}
+
+/*header의 top-menu*/
+#header .top-menu{
+	float: left;
+	position: absolute;
+	top: 5px; right: 0;
+	padding: 10px 0;
+}
+.top-menu dd{
+	float: left;
+	padding-left: 10px;
+	margin-left: 10px;
+	background-image: url(../images/header/tmenu-bar.png); 
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.top-menu dd:nth-of-type(1){
+	margin-left: 0;
+	padding-left: 0;
+	background-image : none;
+}
+.top-menu dd a{
+	display: block;
+	font-family: "nanum";
+	font-size: 0.75em;
+	color: #5a5b5b;
+}
+.top-menu dd:nth-of-type(3) a{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 0.78em;
+}
+
+/*header의 logo1, logo2*/
+.logo1{
+	position: absolute;
+	top: 82px; left: 0;
+}
+.logo2_h{
+	position: absolute;
+	top: 57px; left: 50%;
+	margin-left: -8px;
+}
+
+/*header의 gnb*/
+.gnb{
+	position: absolute;
+	bottom: 16px; left:50%;
+	margin-left: -78px;
+	
+}
+.gnb li{
+	float: left;
+	margin-left: 20px;
+}
+.gnb li:nth-of-type(1){
+	margin-left: 0;
+}
+.gnb li a{
+	display: block;
+	font-family: "nanumB";
+	font-size: 1em;
+	line-height: 20px;
+	color: #fff;
+}
+
+/*gnb에 hover했을 때 sub-gnb*/
+.sub-gnb{
+	display : none;
+}
+.sub-gnb li{
+	
+}
+.sub-gnb li a{
+	
+}
+
+/*footer*/
+#footerwrap{
+	width: 100%;
+	height: auto;
+	margin : 0 auto;
+    background-color: #f4d98f;
+}
+#footer{
+    position : relative;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.subsidiary {
+    position : absolute;
+    float: left;
+}
+.subsidiary li{
+    float: left;
+    
+}
+.subsidiary li a{
+    display: block;
+}
+
+.logo2-f{
+    
+}
+address{
+    
+}
+.tel{
+    
+}
+.tel span{
+    
+}
