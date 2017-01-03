@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Main</title>
-<link rel="stylesheet" href="css/import.css" type="text/css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/import.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 </head>
 <body>
